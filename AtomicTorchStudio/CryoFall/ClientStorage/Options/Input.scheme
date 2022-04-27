@@ -1,0 +1,544 @@
+﻿AtomicSerializer data scheme
+
+MetaType ID: 0
+Name: System.Array
+Generic arguments count: 1
+MetaClass: ArrayMetaType
+
+MetaType ID: 1
+Name: System.Object
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: False
+}
+
+MetaType ID: 2
+Name: System.String
+MetaClass: StringMetaType
+
+MetaType ID: 3
+Name: System.Char
+MetaClass: CharMetaType
+
+MetaType ID: 4
+Name: System.Boolean
+MetaClass: PrimitiveMetaType
+
+MetaType ID: 5
+Name: System.Byte
+MetaClass: PrimitiveMetaType
+
+MetaType ID: 6
+Name: System.DateTime
+MetaClass: PrimitiveMetaType
+
+MetaType ID: 7
+Name: System.Double
+MetaClass: PrimitiveMetaType
+
+MetaType ID: 8
+Name: System.SByte
+MetaClass: PrimitiveMetaType
+
+MetaType ID: 9
+Name: System.Single
+MetaClass: PrimitiveMetaType
+
+MetaType ID: 10
+Name: System.TimeSpan
+MetaClass: PrimitiveMetaType
+
+MetaType ID: 11
+Name: System.UInt16
+MetaClass: PrimitiveMetaType
+
+MetaType ID: 12
+Name: System.UInt32
+MetaClass: PrimitiveMetaType
+
+MetaType ID: 13
+Name: System.UInt64
+MetaClass: PrimitiveMetaType
+
+MetaType ID: 14
+Name: System.Int16
+MetaClass: PrimitiveMetaType
+
+MetaType ID: 15
+Name: System.Int32
+MetaClass: PrimitiveMetaType
+
+MetaType ID: 16
+Name: System.Int64
+MetaClass: PrimitiveMetaType
+
+MetaType ID: 17
+Name: AtomicSerializer.SerializationContainer.SerializationContainerForRootStruct
+Generic arguments count: 1
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: False
+    Fields: 
+    {
+        0: Value - Generic argument #0
+    }
+}
+
+MetaType ID: 18
+Name: System.Nullable
+Generic arguments count: 1
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: True
+    Fields: 
+    {
+        0: hasValue - MetaType ID=4 (System.Boolean)
+        1: value - Generic argument #0
+    }
+}
+
+MetaType ID: 19
+Name: System.Collections.Generic.List
+Generic arguments count: 1
+MetaClass: CollectionMetaType
+
+MetaType ID: 20
+Name: System.Collections.Generic.Dictionary
+Generic arguments count: 2
+MetaClass: CollectionMetaType
+
+MetaType ID: 21
+Name: System.Collections.Generic.HashSet
+Generic arguments count: 1
+MetaClass: CollectionMetaType
+
+MetaType ID: 22
+Name: System.Collections.Generic.Stack
+Generic arguments count: 1
+MetaClass: CollectionMetaType
+
+MetaType ID: 23
+Name: System.Collections.Generic.Queue
+Generic arguments count: 1
+MetaClass: CollectionMetaType
+
+MetaType ID: 24
+Name: System.Collections.Generic.LinkedList
+Generic arguments count: 1
+MetaClass: CollectionMetaType
+
+MetaType ID: 25
+Name: System.Collections.Generic.KeyValuePair
+Generic arguments count: 2
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: True
+    Fields: 
+    {
+        0: key - Generic argument #0
+        1: value - Generic argument #1
+    }
+}
+
+MetaType ID: 26
+Name: System.Tuple
+Generic arguments count: 1
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: False
+    Fields: 
+    {
+        0: m_Item1 - Generic argument #0
+    }
+}
+
+MetaType ID: 27
+Name: System.Tuple
+Generic arguments count: 2
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: False
+    Fields: 
+    {
+        0: m_Item1 - Generic argument #0
+        1: m_Item2 - Generic argument #1
+    }
+}
+
+MetaType ID: 28
+Name: System.Tuple
+Generic arguments count: 3
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: False
+    Fields: 
+    {
+        0: m_Item1 - Generic argument #0
+        1: m_Item2 - Generic argument #1
+        2: m_Item3 - Generic argument #2
+    }
+}
+
+MetaType ID: 29
+Name: System.Tuple
+Generic arguments count: 4
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: False
+    Fields: 
+    {
+        0: m_Item1 - Generic argument #0
+        1: m_Item2 - Generic argument #1
+        2: m_Item3 - Generic argument #2
+        3: m_Item4 - Generic argument #3
+    }
+}
+
+MetaType ID: 30
+Name: System.Tuple
+Generic arguments count: 5
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: False
+    Fields: 
+    {
+        0: m_Item1 - Generic argument #0
+        1: m_Item2 - Generic argument #1
+        2: m_Item3 - Generic argument #2
+        3: m_Item4 - Generic argument #3
+        4: m_Item5 - Generic argument #4
+    }
+}
+
+MetaType ID: 31
+Name: System.Tuple
+Generic arguments count: 6
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: False
+    Fields: 
+    {
+        0: m_Item1 - Generic argument #0
+        1: m_Item2 - Generic argument #1
+        2: m_Item3 - Generic argument #2
+        3: m_Item4 - Generic argument #3
+        4: m_Item5 - Generic argument #4
+        5: m_Item6 - Generic argument #5
+    }
+}
+
+MetaType ID: 32
+Name: System.Tuple
+Generic arguments count: 7
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: False
+    Fields: 
+    {
+        0: m_Item1 - Generic argument #0
+        1: m_Item2 - Generic argument #1
+        2: m_Item3 - Generic argument #2
+        3: m_Item4 - Generic argument #3
+        4: m_Item5 - Generic argument #4
+        5: m_Item6 - Generic argument #5
+        6: m_Item7 - Generic argument #6
+    }
+}
+
+MetaType ID: 33
+Name: System.ValueTuple
+Generic arguments count: 1
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: True
+    Fields: 
+    {
+        0: Item1 - Generic argument #0
+    }
+}
+
+MetaType ID: 34
+Name: System.ValueTuple
+Generic arguments count: 2
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: True
+    Fields: 
+    {
+        0: Item1 - Generic argument #0
+        1: Item2 - Generic argument #1
+    }
+}
+
+MetaType ID: 35
+Name: System.ValueTuple
+Generic arguments count: 3
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: True
+    Fields: 
+    {
+        0: Item1 - Generic argument #0
+        1: Item2 - Generic argument #1
+        2: Item3 - Generic argument #2
+    }
+}
+
+MetaType ID: 36
+Name: System.ValueTuple
+Generic arguments count: 4
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: True
+    Fields: 
+    {
+        0: Item1 - Generic argument #0
+        1: Item2 - Generic argument #1
+        2: Item3 - Generic argument #2
+        3: Item4 - Generic argument #3
+    }
+}
+
+MetaType ID: 37
+Name: System.ValueTuple
+Generic arguments count: 5
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: True
+    Fields: 
+    {
+        0: Item1 - Generic argument #0
+        1: Item2 - Generic argument #1
+        2: Item3 - Generic argument #2
+        3: Item4 - Generic argument #3
+        4: Item5 - Generic argument #4
+    }
+}
+
+MetaType ID: 38
+Name: System.ValueTuple
+Generic arguments count: 6
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: True
+    Fields: 
+    {
+        0: Item1 - Generic argument #0
+        1: Item2 - Generic argument #1
+        2: Item3 - Generic argument #2
+        3: Item4 - Generic argument #3
+        4: Item5 - Generic argument #4
+        5: Item6 - Generic argument #5
+    }
+}
+
+MetaType ID: 39
+Name: System.ValueTuple
+Generic arguments count: 7
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: True
+    Fields: 
+    {
+        0: Item1 - Generic argument #0
+        1: Item2 - Generic argument #1
+        2: Item3 - Generic argument #2
+        3: Item4 - Generic argument #3
+        4: Item5 - Generic argument #4
+        5: Item6 - Generic argument #5
+        6: Item7 - Generic argument #6
+    }
+}
+
+MetaType ID: 40
+Name: AtomicTorch.CBND.Client.MonoGame.ScriptingApi.ClientStorageProtoEntitySurrogate
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: True
+    Fields: 
+    {
+        0: ProtoFullName - MetaType ID=2 (System.String)
+    }
+}
+
+MetaType ID: 41
+Name: AtomicTorch.CBND.GameApi.Data.IProtoEntity
+MetaClass: SurrogateMetaType
+Specification: 
+{
+    Surrogate meta type: #40 (AtomicTorch.CBND.Client.MonoGame.ScriptingApi.ClientStorageProtoEntitySurrogate)
+}
+
+MetaType ID: 42
+Name: AtomicTorch.CBND.GameApi.Data.Characters.IProtoCharacter
+MetaClass: SurrogateInheritorMetaType
+Specification: 
+{
+    Base surrogate meta type: #41 (AtomicTorch.CBND.GameApi.Data.IProtoEntity)
+}
+
+MetaType ID: 43
+Name: AtomicTorch.CBND.GameApi.Data.Characters.IProtoCharacterSkeleton
+MetaClass: SurrogateInheritorMetaType
+Specification: 
+{
+    Base surrogate meta type: #41 (AtomicTorch.CBND.GameApi.Data.IProtoEntity)
+}
+
+MetaType ID: 44
+Name: AtomicTorch.CBND.GameApi.Data.IProtoGameObject
+MetaClass: SurrogateInheritorMetaType
+Specification: 
+{
+    Base surrogate meta type: #41 (AtomicTorch.CBND.GameApi.Data.IProtoEntity)
+}
+
+MetaType ID: 45
+Name: AtomicTorch.CBND.GameApi.Data.IProtoSpawnableObject
+MetaClass: SurrogateInheritorMetaType
+Specification: 
+{
+    Base surrogate meta type: #41 (AtomicTorch.CBND.GameApi.Data.IProtoEntity)
+}
+
+MetaType ID: 46
+Name: AtomicTorch.CBND.GameApi.Data.IProtoTrigger
+MetaClass: SurrogateInheritorMetaType
+Specification: 
+{
+    Base surrogate meta type: #41 (AtomicTorch.CBND.GameApi.Data.IProtoEntity)
+}
+
+MetaType ID: 47
+Name: AtomicTorch.CBND.GameApi.Data.Items.IProtoItem
+MetaClass: SurrogateInheritorMetaType
+Specification: 
+{
+    Base surrogate meta type: #41 (AtomicTorch.CBND.GameApi.Data.IProtoEntity)
+}
+
+MetaType ID: 48
+Name: AtomicTorch.CBND.GameApi.Data.Items.IProtoItemsContainer
+MetaClass: SurrogateInheritorMetaType
+Specification: 
+{
+    Base surrogate meta type: #41 (AtomicTorch.CBND.GameApi.Data.IProtoEntity)
+}
+
+MetaType ID: 49
+Name: AtomicTorch.CBND.GameApi.Data.Logic.IProtoLogicObject
+MetaClass: SurrogateInheritorMetaType
+Specification: 
+{
+    Base surrogate meta type: #41 (AtomicTorch.CBND.GameApi.Data.IProtoEntity)
+}
+
+MetaType ID: 50
+Name: AtomicTorch.CBND.GameApi.Data.Logic.IProtoLogicObjectWithInteraction
+MetaClass: SurrogateInheritorMetaType
+Specification: 
+{
+    Base surrogate meta type: #41 (AtomicTorch.CBND.GameApi.Data.IProtoEntity)
+}
+
+MetaType ID: 51
+Name: AtomicTorch.CBND.GameApi.Data.World.IProtoDynamicWorldObject
+MetaClass: SurrogateInheritorMetaType
+Specification: 
+{
+    Base surrogate meta type: #41 (AtomicTorch.CBND.GameApi.Data.IProtoEntity)
+}
+
+MetaType ID: 52
+Name: AtomicTorch.CBND.GameApi.Data.World.IProtoStaticWorldObject
+MetaClass: SurrogateInheritorMetaType
+Specification: 
+{
+    Base surrogate meta type: #41 (AtomicTorch.CBND.GameApi.Data.IProtoEntity)
+}
+
+MetaType ID: 53
+Name: AtomicTorch.CBND.GameApi.Data.World.IProtoTile
+MetaClass: SurrogateInheritorMetaType
+Specification: 
+{
+    Base surrogate meta type: #41 (AtomicTorch.CBND.GameApi.Data.IProtoEntity)
+}
+
+MetaType ID: 54
+Name: AtomicTorch.CBND.GameApi.Data.World.IProtoWorldObject
+MetaClass: SurrogateInheritorMetaType
+Specification: 
+{
+    Base surrogate meta type: #41 (AtomicTorch.CBND.GameApi.Data.IProtoEntity)
+}
+
+MetaType ID: 55
+Name: AtomicTorch.CBND.GameApi.Data.Zones.IProtoZone
+MetaClass: SurrogateInheritorMetaType
+Specification: 
+{
+    Base surrogate meta type: #41 (AtomicTorch.CBND.GameApi.Data.IProtoEntity)
+}
+
+MetaType ID: 56
+Name: AtomicTorch.CBND.GameApi.Data.Zones.IZoneScript
+MetaClass: SurrogateInheritorMetaType
+Specification: 
+{
+    Base surrogate meta type: #41 (AtomicTorch.CBND.GameApi.Data.IProtoEntity)
+}
+
+MetaType ID: 57
+Name: AtomicTorch.CBND.GameApi.ServicesClient.InputKey
+MetaClass: EnumMetaType
+Specification: 
+{
+    Enum primitive type: Int32
+}
+
+MetaType ID: 58
+Name: AtomicTorch.CBND.CoreMod.ClientComponents.Input.ButtonMapping
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: True
+    Fields: 
+    {
+        0: PrimaryKey - MetaType ID=57 (AtomicTorch.CBND.GameApi.ServicesClient.InputKey)
+        1: SecondaryKey - MetaType ID=57 (AtomicTorch.CBND.GameApi.ServicesClient.InputKey)
+    }
+}
+
+MetaType ID: 59
+Name: AtomicTorch.CBND.CoreMod.ClientComponents.Input.ClientInputManager+InputMappingSnapshot
+MetaClass: ObjectMetaType
+Specification: 
+{
+    Is value type: False
+    Fields: 
+    {
+        0: abstractMapping - Reference
+        1: knownEnumTypeNames - Reference
+    }
+}
+

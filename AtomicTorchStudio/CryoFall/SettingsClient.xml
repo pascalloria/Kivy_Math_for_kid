@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<settings version="20">
+
+    <client>
+
+        <!-- ServersCustomList -->
+        <servers_custom_list></servers_custom_list>
+
+        <!-- ServersHistoryList -->
+        <servers_history_list>
+            <server guid="41AD4FE47A36B9DFF05E473E766D5389" />
+        </servers_history_list>
+
+        <!-- ServersFavoriteList -->
+        <servers_favorite_list></servers_favorite_list>
+
+        <!-- LastDialogFolder -->
+        <last_dialog_folder></last_dialog_folder>
+
+    </client>
+
+    <misc>
+
+        <!-- Min logging level: Debug, Info, Important, Warning, Error -->
+        <min_log_severity>Important</min_log_severity>
+
+        <!-- Language -->
+        <language>fr_fr</language>
+
+    </misc>
+
+    <monogame>
+
+        <!-- IsFullscreen -->
+        <is_fullscreen>1</is_fullscreen>
+
+        <!-- Enable NoesisGUI Inspector support? When set to 1, you can use NoesisGUI Inspector tool to attach to the game to browse the UI visual tree and assets. -->
+        <is_user_interface_inspector_enabled>0</is_user_interface_inspector_enabled>
+
+    </monogame>
+</settings>

@@ -1,0 +1,189 @@
+18.5.21 12:54:52.853 [IMP] Log file opened. Time UTC offset is: 02:00:00
+18.5.21 12:54:52.858 [IMP] CryoFall compiler service started
+18.5.21 12:54:52.860 [IMP] Cache root path: C:\Users\Mistrall\AppData\Local\Temp\AtomicTorchStudio\CryoFall_v1.30.6
+18.5.21 12:54:52.962 [IMP] IPCServer: Named pipe server listening on "COMPILER_A966FDF1AE4B0E0F0EA4CD6F93E5E887_1"
+18.5.21 12:54:52.972 [IMP] CryoFall compiler service ready - listening for compilation requests. IPC pipe name: COMPILER_A966FDF1AE4B0E0F0EA4CD6F93E5E887_1
+18.5.21 12:54:52.976 [IMP] GC info: latencyMode=Batch isServer=True
+18.5.21 12:54:52.976 [IMP] Starting scripts compiler listener
+18.5.21 12:54:52.977 [IMP] IPCServer: ++ Opened connection. Total connections: 1
+18.5.21 12:54:52.979 [IMP] IPCServer: Named pipe server listening on "COMPILER_A966FDF1AE4B0E0F0EA4CD6F93E5E887_1"
+18.5.21 12:54:53.228 [IMP] Virtual file system initialized successfully:
+Core mod: Core
+Mods list:
+   --no mods--
+Total files count: 8966
+18.5.21 12:54:53.237 [IMP] [Stopwatch] Initializing virtual file system for build request: 231ms
+18.5.21 12:54:53.621 [IMP] Build started: C:\Users\Mistrall\AppData\Local\Temp\AtomicTorchStudio\CryoFall_v1.30.6\Assemblies\Scripts_fr-fr_release_netcore_x64_IMP_10165008277247998539 (isWarmUp=False)
+18.5.21 12:54:54.730 [IMP] [Stopwatch] Preparing files for compilation (parsing, preprocessing) build: 904ms
+18.5.21 12:54:55.116 [INF] MetadataReferences for current compilation:
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Client\CryoFall_Client.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Client\NoesisManaged.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\Compiler\JetBrains.Annotations.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\mscorlib.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\netstandard.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.AppContext.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Buffers.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Collections.Concurrent.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Collections.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Collections.Immutable.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Collections.NonGeneric.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Collections.Specialized.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.ComponentModel.Annotations.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.ComponentModel.DataAnnotations.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.ComponentModel.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.ComponentModel.EventBasedAsync.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.ComponentModel.Primitives.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.ComponentModel.TypeConverter.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Configuration.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Console.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Core.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Data.Common.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Data.DataSetExtensions.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Data.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Diagnostics.Contracts.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Diagnostics.Debug.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Diagnostics.DiagnosticSource.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Diagnostics.FileVersionInfo.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Diagnostics.Process.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Diagnostics.StackTrace.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Diagnostics.TextWriterTraceListener.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Diagnostics.Tools.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Diagnostics.TraceSource.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Diagnostics.Tracing.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Drawing.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Drawing.Primitives.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Dynamic.Runtime.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Formats.Asn1.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Globalization.Calendars.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Globalization.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Globalization.Extensions.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.IO.Compression.Brotli.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.IO.Compression.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.IO.Compression.FileSystem.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.IO.Compression.ZipFile.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.IO.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.IO.FileSystem.AccessControl.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.IO.FileSystem.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.IO.FileSystem.DriveInfo.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.IO.FileSystem.Primitives.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.IO.FileSystem.Watcher.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.IO.IsolatedStorage.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.IO.MemoryMappedFiles.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.IO.Pipes.AccessControl.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.IO.Pipes.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.IO.UnmanagedMemoryStream.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Linq.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Linq.Expressions.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Linq.Parallel.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Linq.Queryable.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Memory.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Net.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Net.Http.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Net.Http.Json.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Net.HttpListener.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Net.Mail.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Net.NameResolution.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Net.NetworkInformation.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Net.Ping.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Net.Primitives.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Net.Requests.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Net.Security.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Net.ServicePoint.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Net.Sockets.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Net.WebClient.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Net.WebHeaderCollection.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Net.WebProxy.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Net.WebSockets.Client.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Net.WebSockets.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Numerics.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Numerics.Vectors.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.ObjectModel.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Private.CoreLib.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Private.DataContractSerialization.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Private.Uri.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Private.Xml.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Private.Xml.Linq.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Reflection.DispatchProxy.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Reflection.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Reflection.Emit.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Reflection.Emit.ILGeneration.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Reflection.Emit.Lightweight.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Reflection.Extensions.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Reflection.Metadata.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Reflection.Primitives.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Reflection.TypeExtensions.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Resources.Reader.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Resources.ResourceManager.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Resources.Writer.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Runtime.CompilerServices.Unsafe.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Runtime.CompilerServices.VisualC.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Runtime.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Runtime.Extensions.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Runtime.Handles.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Runtime.InteropServices.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Runtime.InteropServices.RuntimeInformation.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Runtime.Intrinsics.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Runtime.Loader.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Runtime.Numerics.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Runtime.Serialization.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Runtime.Serialization.Formatters.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Runtime.Serialization.Json.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Runtime.Serialization.Primitives.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Runtime.Serialization.Xml.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Security.AccessControl.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Security.Claims.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Security.Cryptography.Algorithms.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Security.Cryptography.Cng.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Security.Cryptography.Csp.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Security.Cryptography.Encoding.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Security.Cryptography.OpenSsl.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Security.Cryptography.Primitives.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Security.Cryptography.X509Certificates.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Security.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Security.Principal.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Security.Principal.Windows.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Security.SecureString.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.ServiceModel.Web.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.ServiceProcess.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Text.Encoding.CodePages.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Text.Encoding.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Text.Encoding.Extensions.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Text.Encodings.Web.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Text.Json.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Text.RegularExpressions.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Threading.Channels.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Threading.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Threading.Overlapped.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Threading.Tasks.Dataflow.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Threading.Tasks.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Threading.Tasks.Extensions.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Threading.Tasks.Parallel.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Threading.Thread.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Threading.ThreadPool.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Threading.Timer.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Transactions.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Transactions.Local.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.ValueTuple.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Web.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Web.HttpUtility.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Windows.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Xml.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Xml.Linq.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Xml.ReaderWriter.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Xml.Serialization.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Xml.XDocument.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Xml.XmlDocument.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Xml.XmlSerializer.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Xml.XPath.dll
+* E:\SteamLibrary\steamapps\common\CryoFall\Binaries\Shared\DotNetCore\shared\Microsoft.NETCore.App\5.0.1\System.Xml.XPath.XDocument.dll
+18.5.21 12:54:55.152 [IMP] [Stopwatch] Creating C# compilation object: 421ms
+18.5.21 12:55:01.410 [IMP] [Stopwatch] Emitting scripting assembly - build: 6257ms
+18.5.21 12:55:01.522 [IMP] [Stopwatch] Validating semantic model - build: 111ms
+18.5.21 12:55:01.605 [IMP] Compiled scripts assembly saved to the cache: C:\Users\Mistrall\AppData\Local\Temp\AtomicTorchStudio\CryoFall_v1.30.6\Assemblies\Scripts_fr-fr_release_netcore_x64_IMP_10165008277247998539
+18.5.21 12:55:01.605 [IMP] [Stopwatch] Saving to cache the emitted scripting assembly: 82ms
+18.5.21 12:55:01.605 [IMP] [Stopwatch] Total compilation duration: 7983ms
+18.5.21 12:55:01.605 [IMP] Build completed: C:\Users\Mistrall\AppData\Local\Temp\AtomicTorchStudio\CryoFall_v1.30.6\Assemblies\Scripts_fr-fr_release_netcore_x64_IMP_10165008277247998539 (isWarmup=False)
+18.5.21 12:55:01.633 [IMP] IPCServer: -- Closed connection. Total connections: 0
+18.5.21 12:55:01.634 [IMP] The last client disconnected - shutdown the compiler
+18.5.21 12:55:01.635 [IMP] IPC
